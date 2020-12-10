@@ -1,6 +1,6 @@
 baseurl = "https://eldarrak.github.io/"  # End your URL with a `/` trailing slash.
 title = ""
-copyright = "&copy; 2019 Eldar Rakhimberdiev"
+copyright = "&copy; 2020 Eldar Rakhimberdiev"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -124,12 +124,12 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:eldar@nioz.nl"
+    link = "mailto:e.rakhimberdiev@rug.nl"
 
-  #[[params.social]]
-  #  icon = "twitter"
-  #  icon_pack = "fa"
-  #  link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/eldarrak"
 
   [[params.social]]
     icon = "google-scholar"
@@ -157,31 +157,35 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
   
-[[menu.main]]
-  name = "Professional training"
-  url = "#professional_training"
-  weight = 2
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 3
-  
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 4
-  
-[[menu.main]]
-  name = "Publications"
-  url = "#papers"
-  identifier = "pubs"
-  weight = 5
-
+#[[menu.main]]
+#  name = "Professional training"
+#  url = "#professional_training"
+#  weight = 2
   
 [[menu.main]]
   name = "Posts"
   url = "#posts"
+  weight = 2
+   
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+  [[menu.main]]
+  name = "Publications"
+  url = "#papers"
+  identifier = "pubs"
+  weight = 4
+  
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+  
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
   weight = 6
 
 

@@ -8,7 +8,7 @@ subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 3
+weight = 6
 
 +++
 **Bachelor students**
